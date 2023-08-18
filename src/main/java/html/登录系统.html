@@ -1,0 +1,41 @@
+<!--
+    @Author: Jzq
+    @Date: 2023/1/14 14:18
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+</head>
+<body>
+<form action="#" method="get" id="reg_form">
+	<td>用户名</td>
+	<input name="username" type="text" id="username"><br>
+	<span id="username_arr" class="err_msg" style="display: none">账户格式有误</span>
+</form>
+<script>
+	var v=document.getElementById("username")
+	v.onblur= check
+	function check()
+	{
+		var v1=v.value.trim();
+		var flag=v1.length>=6&&v1.length<=12
+		if(flag)
+		{
+			document.getElementById("username_arr").style.display='none'
+		}else
+		{
+			document.getElementById("username_arr").style.display='';
+		}
+		return flag;
+	}
+	var v2=document.getElementById("reg_form")
+	v2.onsubmit=function()
+	{
+		var v=check()
+		return v
+	}
+</script>
+</body>
+</html>

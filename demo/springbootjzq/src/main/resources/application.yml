@@ -1,0 +1,30 @@
+spring:
+  profiles:
+    active: test
+---
+spring:
+  profiles: dev
+server:
+  port: 8082
+---
+spring:
+  profiles: test
+server:
+  port: 8083
+---
+spring:
+  profiles: pro
+server:
+  port: 8084
+---
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///demo?useSSL=false
+    username: root
+    password: sjzclxy
+---
+#mybatis日志文件
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

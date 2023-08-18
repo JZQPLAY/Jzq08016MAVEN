@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+	   http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+	<!--name:起别名
+	scope:bean默认单例对象，通过scope可以控制-->
+	<!--1.使用构造方法实例化bean,使用init-method和destroy-method指定初始化和销毁方法-->
+	<bean id="jzqdao" name="jqz" class="dao.Impl.BookDaoImpl" init-method="init" destroy-method="destory">
+		<!--简单数据类型的赋值:setter注入-->
+		<property name="name" value="贾志强"/><!--对在实现类中定义的变量进行赋值或引用-->
+		<property name="age" value="21"/>
+		<!--简单数据类型的赋值:构造器注入-->
+		<constructor-arg name="password" value="19850846"/>
+		<!--集合注入-->
+		<property name="list">
+			<array>
+				<value>100</value>
+				<value>200</value>
+				<value>300</value>
+			</array>
+		</property>
+	</bean>
+	<bean id="dao" class="factory.impl"/>
+	<bean id="jzqService" class="service.Impl.BookServiceImpl" autowire="byType">
+		<!--		配置service与dao的关系-->
+		<!--		property标签表示配置当前bean的属性-->
+		<!--		name属性表示配置哪一个具体的属性-->
+		<!--		ref属性表示参照哪一个bean-->
+<!--		<property name="bd" ref="jzqdao"/>-->
+		<property name="da" ref="dao"/>
+		<constructor-arg name="password" ref="jzqdao"/>
+	</bean>
+	<!--	2.使用静态工厂实例化bean-->
+	<!--	<bean id="jzqfactory" class="factory.OrderDaostaticFactory" factory-method="getdao"/>-->
+	<!--	方法3.使用实例工厂实例化bean-->
+	<!--	<bean id="jzqfactory" class="factory.OrderFactory" />-->
+	<!--	<bean id="jzqshili" factory-method="getdao" factory-bean="jzqfactory"/>-->
+	<!--方法4.使用FactoryBean实例化-->
+	<bean id="jzqbean" class="factory.FactoryBean"></bean>
+	<!--
+	5.自动装配:用于对引用类型进行注入，不能对简单类型进行操作
+	使用按类型时必须保障容器中相同类型的bean唯一，推荐使用
+	使用按名称装配时必须保障容器中有指定名称的bean,因变量名与配置耦合，不推荐使用
+	自动装配优先级低于setter注入和构造器注入，同时出现时自动装配失效
+	-->
+	<bean id="datasource" class="com.alibaba.druid.pool.DruidDataSource">
+		<property name="driverClassName" value="${jdbc.driver}"/>
+		<property name="url" value="${jdbc.url}"/>
+		<property name="username" value="${jdbc.username}"/>
+		<property name="password" value="${jdbc.password}"/>
+	</bean>
+	<bean id="cps" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+		<property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
+		<property name="jdbcUrl" value="jdbc:mysql:///demo?useSSL=false"/>
+		<property name="user" value="root"/>
+		<property name="password" value="sjzclxy"/>
+	</bean>
+<!--	加载properties文件：
+1.开启context命名空间
+2.使用context空间加载properties
+3.使用属性占位符读取properties文件中的属性
+-->
+	<context:property-placeholder location="jdbc.properties"/>
+	<!--注解开发-->
+<!--	<context:component-scan base-package="ZhuJie"/>-->
+</beans>

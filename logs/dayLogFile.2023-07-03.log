@@ -1,0 +1,54 @@
+2023-07-03 19:54:49.392  DEBUG [main] o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@75329a49
+2023-07-03 19:54:49.549  DEBUG [main] o.s.b.f.x.XmlBeanDefinitionReader - Loaded 7 bean definitions from class path resource [applicationContext.xml]
+2023-07-03 19:54:49.579  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2023-07-03 19:54:49.622  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'localProperties' with value of type String
+2023-07-03 19:54:49.623  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2023-07-03 19:54:49.623  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2023-07-03 19:54:49.623  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2023-07-03 19:54:49.627  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jzqdao'
+2023-07-03 19:54:49.644  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dao'
+2023-07-03 19:54:49.644  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jzqService'
+2023-07-03 19:54:49.648  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jzqbean'
+2023-07-03 19:54:49.648  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'datasource'
+2023-07-03 19:54:49.697  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'cps'
+2023-07-03 19:56:24.771  DEBUG [main] o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@75329a49
+2023-07-03 19:56:24.921  DEBUG [main] o.s.b.f.x.XmlBeanDefinitionReader - Loaded 7 bean definitions from class path resource [applicationContext.xml]
+2023-07-03 19:56:24.961  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2023-07-03 19:56:25.011  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'localProperties' with value of type String
+2023-07-03 19:56:25.011  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2023-07-03 19:56:25.011  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2023-07-03 19:56:25.011  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2023-07-03 19:56:25.016  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jzqdao'
+2023-07-03 19:56:25.036  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dao'
+2023-07-03 19:56:25.037  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jzqService'
+2023-07-03 19:56:25.042  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jzqbean'
+2023-07-03 19:56:25.042  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'datasource'
+2023-07-03 19:56:25.087  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'cps'
+2023-07-03 20:05:25.820  DEBUG [main] o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@75329a49
+2023-07-03 20:05:25.942  DEBUG [main] o.s.b.f.x.XmlBeanDefinitionReader - Loaded 7 bean definitions from class path resource [applicationContext.xml]
+2023-07-03 20:05:25.974  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2023-07-03 20:05:26.015  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'localProperties' with value of type String
+2023-07-03 20:05:26.015  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2023-07-03 20:05:26.015  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2023-07-03 20:05:26.015  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2023-07-03 20:05:26.020  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jzqdao'
+2023-07-03 20:05:26.037  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dao'
+2023-07-03 20:05:26.037  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jzqService'
+2023-07-03 20:05:26.042  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jzqbean'
+2023-07-03 20:05:26.043  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'datasource'
+2023-07-03 20:05:26.085  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'cps'
+2023-07-03 20:05:26.270  DEBUG [main] o.s.c.s.ClassPathXmlApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@75329a49, started on Mon Jul 03 20:05:25 CST 2023
+2023-07-03 20:05:26.271  INFO  [main] c.a.d.p.DruidDataSource - {dataSource-0} closing ...
+2023-07-03 20:23:40.225  DEBUG [main] o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@75329a49
+2023-07-03 20:23:40.348  DEBUG [main] o.s.b.f.x.XmlBeanDefinitionReader - Loaded 7 bean definitions from class path resource [applicationContext.xml]
+2023-07-03 20:23:40.379  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2023-07-03 20:23:40.421  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'localProperties' with value of type String
+2023-07-03 20:23:40.421  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2023-07-03 20:23:40.421  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2023-07-03 20:23:40.421  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2023-07-03 20:23:40.425  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jzqdao'
+2023-07-03 20:23:40.441  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dao'
+2023-07-03 20:23:40.441  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jzqService'
+2023-07-03 20:23:40.446  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jzqbean'
+2023-07-03 20:23:40.447  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'datasource'
+2023-07-03 20:23:40.492  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'cps'

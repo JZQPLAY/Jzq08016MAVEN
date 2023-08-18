@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Xuesheng">
+	<!--	<select id="selectAll" resultType="mysql">-->
+	<!--		select * from xuesheng;-->
+	<!--	</select>-->
+	<!--如果数据库里的列名是采用下划线命名，那么需要让列名和类的属性名称一致，否则不能自动封装数据，查询时会显示null,通过resultMap来改进-->
+	<resultMap id="jzq" type="mysql"><!--映射类型,后面为要映射的类型，前面为映射过的命名-->
+		<result column="entry_date" property="entryDate"/><!--映射普通类型，前面为列名，后面为属性名,如果前面为id而不是result,则为为主键命名-->
+	</resultMap>
+	<select id="selectAll" resultMap="jzq">
+		select *
+		from xuesheng;
+	</select>
+</mapper>

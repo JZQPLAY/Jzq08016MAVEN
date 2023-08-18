@@ -1,0 +1,62 @@
+<!--
+    @Author: Jzq
+    @Date: 2023/1/30 19:38
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+	// //1.创建核心
+	// var xhttp;
+	// if (window.XMLHttpRequest) {
+	//   xhttp = new XMLHttpRequest();
+	// } else {
+	//   // code for IE6, IE5
+	//   xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+	// }
+	// //2.发送请求
+	// xhttp.open("GET", "http://localhost:8080/jzqtomcat_war/ajaxServlet");//默认为异步请求，异步请求下，需输入完整路径
+	// xhttp.send();
+	// //3.获取响应
+	// function loadDoc() {
+	//   var xhttp = new XMLHttpRequest();
+	//   xhttp.onreadystatechange = function() {
+	// 	  if (this.readyState == 4 && this.status == 200) {
+	// 		  document.getElementById("demo").innerHTML =
+	// 			  document.write(this.responseText);
+	// 	  }
+	//   };
+	// }
+	//使用快捷方式:axios:
+	//1.get:
+	// axios({
+	//   method:"get",
+	//   url:"http://localhost:8080/jzqtomcat_war/ajaxServletusername=jzq"
+	// }).then(function(res)
+	// {
+	//   document.write(res.data)//获取响应数据
+	// })
+	// //2.post
+	// axios({
+	//   method:"post",
+	//   url:"http://localhost:8080/jzqtomcat_war/ajaxServlet",
+	//   data: "username=jzq"
+	//
+	// }).then(function(resp)
+	// {
+	//   alert(resp.data)
+	// })
+	//使用别名简化操作
+	axios.get("http://localhost:8080/jzqtomcat_war/ajaxServlet?username=jzq").then(function(res)
+	{
+		alert(res.data)
+	})
+	//前端使用json
+</script>
+</body>
+</html>

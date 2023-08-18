@@ -1,0 +1,556 @@
+2023-02-17 11:43:00.916  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-17 11:43:00.929  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-17 11:43:00.980  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\mybatisconfig.class]
+2023-02-17 11:43:00.982  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\service\accountserviceimpl.class]
+2023-02-17 11:43:00.986  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-17 11:43:00.990  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\service\accountserviceimpl.class]
+2023-02-17 11:43:00.990  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\springconfig.class]
+2023-02-17 11:43:01.024  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mapperScannerConfigurer'
+2023-02-17 11:43:01.026  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mybatisconfig'
+2023-02-17 11:43:01.032  DEBUG [main] o.a.i.l.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-02-17 11:43:01.035  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\dao\accountdao.class]
+2023-02-17 11:43:01.036  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Creating MapperFactoryBean with name 'accountdao' and 'mybatis.dao.accountdao' mapperInterface
+2023-02-17 11:43:01.037  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'accountdao'.
+2023-02-17 11:43:01.039  INFO  [main] o.s.c.a.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatisconfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2023-02-17 11:43:01.087  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-17 11:43:01.088  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-17 11:43:01.090  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-17 11:43:01.091  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-17 11:43:01.096  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-17 11:43:01.152  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springconfig'
+2023-02-17 11:43:01.171  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method()
+2023-02-17 11:43:01.256  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountserviceimpl'
+2023-02-17 11:43:01.267  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountdao'
+2023-02-17 11:43:01.273  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sqlSessionFactory'
+2023-02-17 11:43:01.274  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+2023-02-17 11:43:01.275  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mybatis.jdbcconfig'
+2023-02-17 11:43:01.276  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:43:01.277  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:43:01.277  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:43:01.277  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:43:01.308  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'sqlSessionFactory' via factory method to bean named 'dataSource'
+2023-02-17 11:43:01.314  DEBUG [main] o.m.s.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2023-02-17 11:43:01.350  DEBUG [main] o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+2023-02-17 11:43:01.395  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-17 11:43:01.425  DEBUG [main] o.m.s.SqlSessionUtils - Creating a new SqlSession
+2023-02-17 11:43:01.429  DEBUG [main] o.m.s.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@641856] was not registered for synchronization because synchronization is not active
+2023-02-17 11:43:01.435  DEBUG [main] o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+2023-02-17 11:43:01.538  INFO  [main] c.a.d.p.DruidDataSource - {dataSource-1} inited
+2023-02-17 11:43:01.677  DEBUG [main] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2516fc68] will not be managed by Spring
+2023-02-17 11:43:01.683  DEBUG [main] m.d.a.select - ==>  Preparing: select * from demo1
+2023-02-17 11:43:01.702  DEBUG [main] m.d.a.select - ==> Parameters: 
+2023-02-17 11:43:01.731  DEBUG [main] m.d.a.select - <==      Total: 6
+2023-02-17 11:43:01.733  DEBUG [main] o.m.s.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@641856]
+2023-02-17 11:46:07.855  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-17 11:46:07.867  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-17 11:46:07.921  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\mybatisconfig.class]
+2023-02-17 11:46:07.923  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\service\accountserviceimpl.class]
+2023-02-17 11:46:07.926  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-17 11:46:07.930  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\service\accountserviceimpl.class]
+2023-02-17 11:46:07.930  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\springconfig.class]
+2023-02-17 11:46:07.959  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mapperScannerConfigurer'
+2023-02-17 11:46:07.961  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mybatisconfig'
+2023-02-17 11:46:07.966  DEBUG [main] o.a.i.l.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-02-17 11:46:07.969  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\dao\accountdao.class]
+2023-02-17 11:46:07.970  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Creating MapperFactoryBean with name 'accountdao' and 'mybatis.dao.accountdao' mapperInterface
+2023-02-17 11:46:07.971  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'accountdao'.
+2023-02-17 11:46:07.973  INFO  [main] o.s.c.a.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatisconfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2023-02-17 11:46:08.016  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-17 11:46:08.017  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-17 11:46:08.018  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-17 11:46:08.020  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-17 11:46:08.023  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-17 11:46:08.067  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springconfig'
+2023-02-17 11:46:08.081  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method()
+2023-02-17 11:46:08.138  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountserviceimpl'
+2023-02-17 11:46:08.150  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountdao'
+2023-02-17 11:46:08.157  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sqlSessionFactory'
+2023-02-17 11:46:08.159  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+2023-02-17 11:46:08.159  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mybatis.jdbcconfig'
+2023-02-17 11:46:08.161  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:46:08.162  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:46:08.162  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:46:08.162  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:46:08.189  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'sqlSessionFactory' via factory method to bean named 'dataSource'
+2023-02-17 11:46:08.194  DEBUG [main] o.m.s.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2023-02-17 11:46:08.228  DEBUG [main] o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+2023-02-17 11:46:08.273  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-17 11:46:08.297  DEBUG [main] o.m.s.SqlSessionUtils - Creating a new SqlSession
+2023-02-17 11:46:08.301  DEBUG [main] o.m.s.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@641856] was not registered for synchronization because synchronization is not active
+2023-02-17 11:46:08.306  DEBUG [main] o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+2023-02-17 11:46:08.391  INFO  [main] c.a.d.p.DruidDataSource - {dataSource-1} inited
+2023-02-17 11:46:08.524  DEBUG [main] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@15f193b8] will not be managed by Spring
+2023-02-17 11:46:08.532  DEBUG [main] m.d.a.select - ==>  Preparing: select * from demo1
+2023-02-17 11:46:08.555  DEBUG [main] m.d.a.select - ==> Parameters: 
+2023-02-17 11:46:08.580  DEBUG [main] m.d.a.select - <==      Total: 6
+2023-02-17 11:46:08.582  DEBUG [main] o.m.s.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@641856]
+2023-02-17 11:47:59.507  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-17 11:47:59.518  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-17 11:47:59.575  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\service\accountserviceimpl.class]
+2023-02-17 11:47:59.576  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\springconfig.class]
+2023-02-17 11:47:59.600  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mapperScannerConfigurer'
+2023-02-17 11:47:59.601  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mybatis.mybatisconfig'
+2023-02-17 11:47:59.605  DEBUG [main] o.a.i.l.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-02-17 11:47:59.608  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\dao\accountdao.class]
+2023-02-17 11:47:59.609  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Creating MapperFactoryBean with name 'accountdao' and 'mybatis.dao.accountdao' mapperInterface
+2023-02-17 11:47:59.610  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'accountdao'.
+2023-02-17 11:47:59.611  INFO  [main] o.s.c.a.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatis.mybatisconfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2023-02-17 11:47:59.655  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-17 11:47:59.657  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-17 11:47:59.659  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-17 11:47:59.660  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-17 11:47:59.663  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-17 11:47:59.708  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springconfig'
+2023-02-17 11:47:59.712  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountserviceimpl'
+2023-02-17 11:47:59.722  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountdao'
+2023-02-17 11:47:59.729  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sqlSessionFactory'
+2023-02-17 11:47:59.731  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+2023-02-17 11:47:59.731  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mybatis.jdbcconfig'
+2023-02-17 11:47:59.733  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:47:59.734  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:47:59.734  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:47:59.734  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:47:59.760  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'sqlSessionFactory' via factory method to bean named 'dataSource'
+2023-02-17 11:47:59.765  DEBUG [main] o.m.s.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2023-02-17 11:47:59.797  DEBUG [main] o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+2023-02-17 11:47:59.850  DEBUG [main] o.m.s.SqlSessionUtils - Creating a new SqlSession
+2023-02-17 11:47:59.855  DEBUG [main] o.m.s.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56276db8] was not registered for synchronization because synchronization is not active
+2023-02-17 11:47:59.862  DEBUG [main] o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+2023-02-17 11:47:59.990  INFO  [main] c.a.d.p.DruidDataSource - {dataSource-1} inited
+2023-02-17 11:48:00.124  DEBUG [main] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5aa0dbf4] will not be managed by Spring
+2023-02-17 11:48:00.130  DEBUG [main] m.d.a.select - ==>  Preparing: select * from demo1
+2023-02-17 11:48:00.150  DEBUG [main] m.d.a.select - ==> Parameters: 
+2023-02-17 11:48:00.168  DEBUG [main] m.d.a.select - <==      Total: 6
+2023-02-17 11:48:00.170  DEBUG [main] o.m.s.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56276db8]
+2023-02-17 11:50:29.373  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-17 11:50:29.385  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-17 11:50:29.441  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\service\accountserviceimpl.class]
+2023-02-17 11:50:29.442  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\springconfig.class]
+2023-02-17 11:50:29.467  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mapperScannerConfigurer'
+2023-02-17 11:50:29.468  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mybatis.mybatisconfig'
+2023-02-17 11:50:29.474  DEBUG [main] o.a.i.l.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-02-17 11:50:29.477  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\dao\accountdao.class]
+2023-02-17 11:50:29.477  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Creating MapperFactoryBean with name 'accountdao' and 'mybatis.dao.accountdao' mapperInterface
+2023-02-17 11:50:29.479  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'accountdao'.
+2023-02-17 11:50:29.480  INFO  [main] o.s.c.a.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatis.mybatisconfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2023-02-17 11:50:29.527  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-17 11:50:29.529  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-17 11:50:29.531  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-17 11:50:29.532  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-17 11:50:29.535  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-17 11:50:29.584  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springconfig'
+2023-02-17 11:50:29.589  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountserviceimpl'
+2023-02-17 11:50:29.600  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountdao'
+2023-02-17 11:50:29.607  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sqlSessionFactory'
+2023-02-17 11:50:29.609  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+2023-02-17 11:50:29.609  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mybatis.jdbcconfig'
+2023-02-17 11:50:29.612  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:50:29.612  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:50:29.613  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:50:29.613  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:50:29.646  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'sqlSessionFactory' via factory method to bean named 'dataSource'
+2023-02-17 11:50:29.651  DEBUG [main] o.m.s.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2023-02-17 11:50:29.683  DEBUG [main] o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+2023-02-17 11:50:29.735  DEBUG [main] o.m.s.SqlSessionUtils - Creating a new SqlSession
+2023-02-17 11:50:29.739  DEBUG [main] o.m.s.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56276db8] was not registered for synchronization because synchronization is not active
+2023-02-17 11:50:29.747  DEBUG [main] o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+2023-02-17 11:50:29.851  INFO  [main] c.a.d.p.DruidDataSource - {dataSource-1} inited
+2023-02-17 11:50:29.974  DEBUG [main] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5aa0dbf4] will not be managed by Spring
+2023-02-17 11:50:29.980  DEBUG [main] m.d.a.select - ==>  Preparing: select * from demo1
+2023-02-17 11:50:29.998  DEBUG [main] m.d.a.select - ==> Parameters: 
+2023-02-17 11:50:30.015  DEBUG [main] m.d.a.select - <==      Total: 6
+2023-02-17 11:50:30.017  DEBUG [main] o.m.s.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56276db8]
+2023-02-17 11:51:30.201  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-17 11:51:30.214  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-17 11:51:30.265  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\service\accountserviceimpl.class]
+2023-02-17 11:51:30.266  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\springconfig.class]
+2023-02-17 11:51:30.290  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mapperScannerConfigurer'
+2023-02-17 11:51:30.291  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mybatis.mybatisconfig'
+2023-02-17 11:51:30.296  DEBUG [main] o.a.i.l.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-02-17 11:51:30.299  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\dao\accountdao.class]
+2023-02-17 11:51:30.299  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Creating MapperFactoryBean with name 'accountdao' and 'mybatis.dao.accountdao' mapperInterface
+2023-02-17 11:51:30.300  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'accountdao'.
+2023-02-17 11:51:30.302  INFO  [main] o.s.c.a.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatis.mybatisconfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2023-02-17 11:51:30.345  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-17 11:51:30.346  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-17 11:51:30.347  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-17 11:51:30.348  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-17 11:51:30.351  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-17 11:51:30.397  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springconfig'
+2023-02-17 11:51:30.401  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountserviceimpl'
+2023-02-17 11:51:30.410  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountdao'
+2023-02-17 11:51:30.416  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sqlSessionFactory'
+2023-02-17 11:51:30.418  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+2023-02-17 11:51:30.418  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mybatis.jdbcconfig'
+2023-02-17 11:51:30.421  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:51:30.421  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:51:30.422  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:51:30.422  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:51:30.452  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'sqlSessionFactory' via factory method to bean named 'dataSource'
+2023-02-17 11:51:30.457  DEBUG [main] o.m.s.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2023-02-17 11:51:30.488  DEBUG [main] o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+2023-02-17 11:51:30.547  DEBUG [main] o.m.s.SqlSessionUtils - Creating a new SqlSession
+2023-02-17 11:51:30.551  DEBUG [main] o.m.s.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56276db8] was not registered for synchronization because synchronization is not active
+2023-02-17 11:51:30.562  DEBUG [main] o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+2023-02-17 11:51:30.683  INFO  [main] c.a.d.p.DruidDataSource - {dataSource-1} inited
+2023-02-17 11:51:30.815  DEBUG [main] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@8ab78bc] will not be managed by Spring
+2023-02-17 11:51:30.821  DEBUG [main] m.d.a.select - ==>  Preparing: select * from demo1
+2023-02-17 11:51:30.839  DEBUG [main] m.d.a.select - ==> Parameters: 
+2023-02-17 11:51:30.856  DEBUG [main] m.d.a.select - <==      Total: 6
+2023-02-17 11:51:30.858  DEBUG [main] o.m.s.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56276db8]
+2023-02-17 11:53:08.741  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-17 11:53:08.753  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-17 11:53:08.807  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\service\accountserviceimpl.class]
+2023-02-17 11:53:08.808  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\springconfig.class]
+2023-02-17 11:53:08.832  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mapperScannerConfigurer'
+2023-02-17 11:53:08.833  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mybatis.mybatisconfig'
+2023-02-17 11:53:08.838  DEBUG [main] o.a.i.l.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-02-17 11:53:08.841  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\dao\accountdao.class]
+2023-02-17 11:53:08.842  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Creating MapperFactoryBean with name 'accountdao' and 'mybatis.dao.accountdao' mapperInterface
+2023-02-17 11:53:08.843  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'accountdao'.
+2023-02-17 11:53:08.844  INFO  [main] o.s.c.a.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatis.mybatisconfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2023-02-17 11:53:08.888  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-17 11:53:08.889  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-17 11:53:08.890  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-17 11:53:08.891  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-17 11:53:08.894  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-17 11:53:08.939  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springconfig'
+2023-02-17 11:53:08.944  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountserviceimpl'
+2023-02-17 11:53:08.955  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountdao'
+2023-02-17 11:53:08.962  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sqlSessionFactory'
+2023-02-17 11:53:08.963  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+2023-02-17 11:53:08.964  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mybatis.jdbcconfig'
+2023-02-17 11:53:08.967  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:53:08.968  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:53:08.968  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:53:08.968  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:53:08.996  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'sqlSessionFactory' via factory method to bean named 'dataSource'
+2023-02-17 11:53:09.000  DEBUG [main] o.m.s.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2023-02-17 11:53:09.032  DEBUG [main] o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+2023-02-17 11:53:09.084  DEBUG [main] o.m.s.SqlSessionUtils - Creating a new SqlSession
+2023-02-17 11:53:09.088  DEBUG [main] o.m.s.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56276db8] was not registered for synchronization because synchronization is not active
+2023-02-17 11:53:09.094  DEBUG [main] o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+2023-02-17 11:53:09.197  INFO  [main] c.a.d.p.DruidDataSource - {dataSource-1} inited
+2023-02-17 11:53:09.331  DEBUG [main] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@8ab78bc] will not be managed by Spring
+2023-02-17 11:53:09.337  DEBUG [main] m.d.a.select - ==>  Preparing: select * from demo1
+2023-02-17 11:53:09.357  DEBUG [main] m.d.a.select - ==> Parameters: 
+2023-02-17 11:53:09.376  DEBUG [main] m.d.a.select - <==      Total: 6
+2023-02-17 11:53:09.377  DEBUG [main] o.m.s.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56276db8]
+2023-02-17 11:55:01.982  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-17 11:55:01.994  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-17 11:55:02.052  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\service\accountserviceimpl.class]
+2023-02-17 11:55:02.052  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\springconfig.class]
+2023-02-17 11:55:02.076  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mapperScannerConfigurer'
+2023-02-17 11:55:02.077  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mybatis.mybatisconfig'
+2023-02-17 11:55:02.082  DEBUG [main] o.a.i.l.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-02-17 11:55:02.085  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\dao\accountdao.class]
+2023-02-17 11:55:02.086  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Creating MapperFactoryBean with name 'accountdao' and 'mybatis.dao.accountdao' mapperInterface
+2023-02-17 11:55:02.087  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'accountdao'.
+2023-02-17 11:55:02.088  INFO  [main] o.s.c.a.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatis.mybatisconfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2023-02-17 11:55:02.131  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-17 11:55:02.133  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-17 11:55:02.134  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-17 11:55:02.135  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-17 11:55:02.139  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-17 11:55:02.183  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springconfig'
+2023-02-17 11:55:02.189  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountserviceimpl'
+2023-02-17 11:55:02.201  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountdao'
+2023-02-17 11:55:02.207  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sqlSessionFactory'
+2023-02-17 11:55:02.208  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+2023-02-17 11:55:02.208  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mybatis.jdbcconfig'
+2023-02-17 11:55:02.211  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:55:02.211  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:55:02.211  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:55:02.211  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:55:02.237  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'sqlSessionFactory' via factory method to bean named 'dataSource'
+2023-02-17 11:55:02.242  DEBUG [main] o.m.s.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2023-02-17 11:55:02.273  DEBUG [main] o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+2023-02-17 11:55:02.325  DEBUG [main] o.m.s.SqlSessionUtils - Creating a new SqlSession
+2023-02-17 11:55:02.330  DEBUG [main] o.m.s.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56276db8] was not registered for synchronization because synchronization is not active
+2023-02-17 11:55:02.335  DEBUG [main] o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+2023-02-17 11:55:02.445  INFO  [main] c.a.d.p.DruidDataSource - {dataSource-1} inited
+2023-02-17 11:55:02.575  DEBUG [main] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@8ab78bc] will not be managed by Spring
+2023-02-17 11:55:02.581  DEBUG [main] m.d.a.select - ==>  Preparing: select * from demo1
+2023-02-17 11:55:02.600  DEBUG [main] m.d.a.select - ==> Parameters: 
+2023-02-17 11:55:02.619  DEBUG [main] m.d.a.select - <==      Total: 6
+2023-02-17 11:55:02.621  DEBUG [main] o.m.s.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56276db8]
+2023-02-17 11:57:03.436  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-17 11:57:03.450  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-17 11:57:03.510  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\service\accountserviceimpl.class]
+2023-02-17 11:57:03.511  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\springconfig.class]
+2023-02-17 11:57:03.539  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mapperScannerConfigurer'
+2023-02-17 11:57:03.541  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mybatis.mybatisconfig'
+2023-02-17 11:57:03.546  DEBUG [main] o.a.i.l.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-02-17 11:57:03.550  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\dao\accountdao.class]
+2023-02-17 11:57:03.550  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Creating MapperFactoryBean with name 'accountdao' and 'mybatis.dao.accountdao' mapperInterface
+2023-02-17 11:57:03.552  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'accountdao'.
+2023-02-17 11:57:03.553  INFO  [main] o.s.c.a.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatis.mybatisconfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2023-02-17 11:57:03.602  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-17 11:57:03.603  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-17 11:57:03.605  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-17 11:57:03.606  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-17 11:57:03.609  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-17 11:57:03.664  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springconfig'
+2023-02-17 11:57:03.669  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountserviceimpl'
+2023-02-17 11:57:03.680  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountdao'
+2023-02-17 11:57:03.687  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sqlSessionFactory'
+2023-02-17 11:57:03.689  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+2023-02-17 11:57:03.690  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mybatis.jdbcconfig'
+2023-02-17 11:57:03.694  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:57:03.694  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:57:03.695  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:57:03.695  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 11:57:03.729  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'sqlSessionFactory' via factory method to bean named 'dataSource'
+2023-02-17 11:57:03.736  DEBUG [main] o.m.s.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2023-02-17 11:57:03.770  DEBUG [main] o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+2023-02-17 11:57:03.829  DEBUG [main] o.m.s.SqlSessionUtils - Creating a new SqlSession
+2023-02-17 11:57:03.834  DEBUG [main] o.m.s.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56276db8] was not registered for synchronization because synchronization is not active
+2023-02-17 11:57:03.840  DEBUG [main] o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+2023-02-17 11:57:03.957  INFO  [main] c.a.d.p.DruidDataSource - {dataSource-1} inited
+2023-02-17 11:57:04.077  DEBUG [main] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@8ab78bc] will not be managed by Spring
+2023-02-17 11:57:04.082  DEBUG [main] m.d.a.select - ==>  Preparing: select * from demo1
+2023-02-17 11:57:04.100  DEBUG [main] m.d.a.select - ==> Parameters: 
+2023-02-17 11:57:04.120  DEBUG [main] m.d.a.select - <==      Total: 6
+2023-02-17 11:57:04.121  DEBUG [main] o.m.s.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56276db8]
+2023-02-17 12:05:50.803  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-17 12:05:50.814  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-17 12:05:50.857  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-17 12:05:50.918  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-17 12:05:50.920  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-17 12:05:50.921  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-17 12:05:50.923  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-17 12:05:50.926  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-17 12:05:50.978  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-17 12:05:50.991  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method()
+2023-02-17 12:05:51.060  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-17 12:06:39.161  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-17 12:06:39.173  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-17 12:06:39.213  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-17 12:06:39.215  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-17 12:06:39.276  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-17 12:06:39.277  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-17 12:06:39.278  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-17 12:06:39.279  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-17 12:06:39.282  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-17 12:06:39.331  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-17 12:06:39.343  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method()
+2023-02-17 12:06:39.402  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-17 12:06:39.403  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-17 12:07:12.109  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-17 12:07:12.121  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-17 12:07:12.163  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-17 12:07:12.165  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-17 12:07:12.225  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-17 12:07:12.227  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-17 12:07:12.228  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-17 12:07:12.228  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-17 12:07:12.232  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-17 12:07:12.279  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-17 12:07:12.292  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method()
+2023-02-17 12:07:12.349  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-17 12:07:12.350  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-17 12:07:12.351  INFO  [main] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public void aop.aopimpl.save()
+2023-02-17 12:08:28.563  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-17 12:08:28.574  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-17 12:08:28.615  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-17 12:08:28.618  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-17 12:08:28.678  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-17 12:08:28.680  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-17 12:08:28.681  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-17 12:08:28.682  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-17 12:08:28.685  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-17 12:08:28.742  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-17 12:08:28.757  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method()
+2023-02-17 12:08:28.819  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-17 12:08:28.820  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-17 12:08:28.821  INFO  [main] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public void aop.aopimpl.save()
+2023-02-17 12:11:54.889  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-17 12:11:54.901  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-17 12:11:54.939  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-17 12:11:54.942  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-17 12:11:55.003  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-17 12:11:55.004  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-17 12:11:55.006  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-17 12:11:55.007  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-17 12:11:55.010  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-17 12:11:55.061  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-17 12:11:55.074  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method()
+2023-02-17 12:11:55.131  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-17 12:11:55.132  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-17 12:11:55.133  INFO  [main] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public void aop.aopimpl.save()
+2023-02-17 12:13:09.778  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-17 12:13:09.789  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-17 12:13:09.828  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-17 12:13:09.831  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-17 12:13:09.890  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-17 12:13:09.892  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-17 12:13:09.893  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-17 12:13:09.894  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-17 12:13:09.897  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-17 12:13:09.945  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-17 12:13:09.957  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method()
+2023-02-17 12:13:10.014  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-17 12:13:10.015  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-17 12:13:10.016  INFO  [main] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public void aop.aopimpl.save()
+2023-02-17 12:13:43.856  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-17 12:13:43.868  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-17 12:13:43.915  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\mybatisconfig.class]
+2023-02-17 12:13:43.916  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\service\accountserviceimpl.class]
+2023-02-17 12:13:43.921  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\service\accountserviceimpl.class]
+2023-02-17 12:13:43.922  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\springconfig.class]
+2023-02-17 12:13:43.947  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mapperScannerConfigurer'
+2023-02-17 12:13:43.948  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mybatisconfig'
+2023-02-17 12:13:43.953  DEBUG [main] o.a.i.l.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-02-17 12:13:43.956  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\dao\accountdao.class]
+2023-02-17 12:13:43.956  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Creating MapperFactoryBean with name 'accountdao' and 'mybatis.dao.accountdao' mapperInterface
+2023-02-17 12:13:43.958  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'accountdao'.
+2023-02-17 12:13:43.959  INFO  [main] o.s.c.a.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatisconfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2023-02-17 12:13:44.001  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-17 12:13:44.002  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-17 12:13:44.003  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-17 12:13:44.005  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-17 12:13:44.011  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springconfig'
+2023-02-17 12:13:44.014  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountserviceimpl'
+2023-02-17 12:13:44.027  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountdao'
+2023-02-17 12:13:44.045  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sqlSessionFactory'
+2023-02-17 12:13:44.046  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+2023-02-17 12:13:44.047  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mybatis.jdbcconfig'
+2023-02-17 12:13:44.049  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 12:13:44.049  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 12:13:44.049  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 12:13:44.049  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-17 12:13:44.077  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'sqlSessionFactory' via factory method to bean named 'dataSource'
+2023-02-17 12:13:44.081  DEBUG [main] o.m.s.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2023-02-17 12:13:44.112  DEBUG [main] o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+2023-02-17 12:13:44.166  DEBUG [main] o.m.s.SqlSessionUtils - Creating a new SqlSession
+2023-02-17 12:13:44.171  DEBUG [main] o.m.s.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27305e6] was not registered for synchronization because synchronization is not active
+2023-02-17 12:13:44.177  DEBUG [main] o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+2023-02-17 12:13:44.276  INFO  [main] c.a.d.p.DruidDataSource - {dataSource-1} inited
+2023-02-17 12:13:44.400  DEBUG [main] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4b21844c] will not be managed by Spring
+2023-02-17 12:13:44.406  DEBUG [main] m.d.a.select - ==>  Preparing: select * from demo1
+2023-02-17 12:13:44.426  DEBUG [main] m.d.a.select - ==> Parameters: 
+2023-02-17 12:13:44.444  DEBUG [main] m.d.a.select - <==      Total: 6
+2023-02-17 12:13:44.446  DEBUG [main] o.m.s.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27305e6]
+2023-02-17 12:16:00.276  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-17 12:16:00.288  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-17 12:16:00.330  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-17 12:16:00.333  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-17 12:16:00.395  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-17 12:16:00.397  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-17 12:16:00.398  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-17 12:16:00.399  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-17 12:16:00.402  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-17 12:16:00.452  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-17 12:16:00.466  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method()
+2023-02-17 12:16:00.525  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-17 12:16:00.526  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-17 12:16:00.527  INFO  [main] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public void aop.aopimpl.save()
+2023-02-17 12:16:09.579  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-17 12:16:09.591  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-17 12:16:09.632  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-17 12:16:09.635  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-17 12:16:09.698  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-17 12:16:09.700  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-17 12:16:09.701  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-17 12:16:09.702  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-17 12:16:09.705  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-17 12:16:09.756  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-17 12:16:09.768  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method()
+2023-02-17 12:16:09.828  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-17 12:16:09.829  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-17 12:16:09.830  INFO  [main] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public void aop.aopimpl.save()
+2023-02-17 12:16:38.474  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-17 12:16:38.486  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-17 12:16:38.533  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-17 12:16:38.537  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-17 12:16:38.604  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-17 12:16:38.605  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-17 12:16:38.607  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-17 12:16:38.608  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-17 12:16:38.611  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-17 12:16:38.665  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-17 12:16:38.678  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method()
+2023-02-17 12:16:38.741  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-17 12:16:38.741  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-17 12:16:38.742  INFO  [main] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public void aop.aopimpl.save()
+2023-02-17 12:17:41.720  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-17 12:17:41.732  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-17 12:17:41.774  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-17 12:17:41.778  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-17 12:17:41.850  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-17 12:17:41.851  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-17 12:17:41.852  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-17 12:17:41.853  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-17 12:17:41.856  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-17 12:17:41.903  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-17 12:17:41.916  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method()
+2023-02-17 12:17:41.976  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-17 12:17:41.977  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-17 12:17:41.977  INFO  [main] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public void aop.aopimpl.save()
+2023-02-17 12:17:41.993  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'save'
+2023-02-17 12:17:41.995  WARN  [main] o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'save' defined in class path resource [aop/aopimpl.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [void]: Illegal arguments to factory method 'save'; args: ; nested exception is java.lang.IllegalArgumentException: object is not an instance of declaring class
+2023-02-17 12:19:09.182  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-17 12:19:09.194  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-17 12:19:09.239  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-17 12:19:09.242  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-17 12:19:09.307  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-17 12:19:09.308  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-17 12:19:09.310  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-17 12:19:09.311  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-17 12:19:09.315  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-17 12:19:09.374  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-17 12:19:09.389  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method()
+2023-02-17 12:19:09.449  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-17 12:19:09.450  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-17 12:20:01.658  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-17 12:20:01.671  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-17 12:20:01.718  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-17 12:20:01.719  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-17 12:20:01.787  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-17 12:20:01.788  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-17 12:20:01.790  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-17 12:20:01.791  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-17 12:20:01.794  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-17 12:20:01.852  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-17 12:20:01.865  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method()
+2023-02-17 12:20:01.926  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-17 12:20:01.926  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-17 12:20:55.042  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-17 12:20:55.053  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-17 12:20:55.100  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-17 12:20:55.102  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-17 12:20:55.163  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-17 12:20:55.165  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-17 12:20:55.166  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-17 12:20:55.168  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-17 12:20:55.171  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-17 12:20:55.223  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-17 12:20:55.236  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method()
+2023-02-17 12:20:55.293  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-17 12:20:55.294  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-17 12:21:12.585  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-17 12:21:12.596  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-17 12:21:12.641  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-17 12:21:12.644  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-17 12:21:12.706  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-17 12:21:12.707  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-17 12:21:12.709  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-17 12:21:12.710  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-17 12:21:12.713  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-17 12:21:12.763  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-17 12:21:12.776  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method()
+2023-02-17 12:21:12.836  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-17 12:21:12.837  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-17 12:27:07.364  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-17 12:27:07.375  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-17 12:27:07.419  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-17 12:27:07.421  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-17 12:27:07.482  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-17 12:27:07.484  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-17 12:27:07.485  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-17 12:27:07.486  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-17 12:27:07.488  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-17 12:27:07.539  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-17 12:27:07.551  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method()
+2023-02-17 12:27:07.613  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-17 12:27:07.614  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'

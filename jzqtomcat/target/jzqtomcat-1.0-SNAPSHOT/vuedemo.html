@@ -1,0 +1,60 @@
+<!--
+    @Author: Jzq
+    @Date: 2023/2/2 15:16
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<script src="js/vue.min.js"></script>
+<script src="js/axios.min.js"></script>
+	<div id="app">
+	<tr>
+		<th>演职员</th>
+		<th>职务</th>
+		<th>代表作</th>
+	</tr>
+	<tr><!--可以在tr上设置居中-->
+		<td>
+			王家卫 Kar Wai Wong
+		</td>
+		<td>
+			导演 Director
+		</td>
+		<td>重庆森林/射雕英雄传之东成西就/春光乍泄</td>
+	</tr>
+	<tr>
+		<td>林青霞 Brigitte Lin</td>
+		<td>演员 Actress</td>
+		<td>重庆森林/射雕英雄传之东成西就/东邪西毒</td>
+	</tr>
+	<tr>
+		<td>金城武 Takeshi Kaneshiro</td>
+		<td>演员 Actor (饰 何志武)</td>
+		<td>重庆森林/喜欢你/如果·爱</td>
+	</tr>
+	<tr>
+		<td>梁朝伟 Tony Leung Chiu Wai</td>
+		<td>演员 Actor/Actress (饰 警察663)</td>
+		<td>无间道/重庆森林/色，戒</td>
+	</tr>
+	<tr>
+		<td>王菲 Faye Wong</td>
+		<td>演员 Actress (饰 阿菲)</td>
+		<td> 我和我的祖国/一出好戏/重庆森林</td>
+	</tr>
+	</div>
+<script>
+	new Vue({
+		el:"#app",
+		mounted()
+		{
+			//页面加载完成后，发送异步请求，查询数据
+		}
+	})
+</script>
+</body>
+</html>

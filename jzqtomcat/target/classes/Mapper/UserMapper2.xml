@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace:名称空间-->
+<mapper namespace="Mapper.UserMapper2">
+	<delete id="deleteByids">
+		delete from wanghuang where id in
+		<foreach collection="ids" item="id" separator="," open="(" close=")">
+			#{id}
+		</foreach>
+	</delete>
+	<select id="selectbypageandcondition" resultType="denglu.wanghuang">
+		select *from wanghuang
+		<where>
+			<if test="wanghuang.status!=null and wanghuang.status!=''">
+				and status = #{wanghuang.status}
+			</if>
+			<if test="wanghuang.name!=null and wanghuang.name!=''">
+				and name like #{wanghuang.name}
+			</if>
+			<if test="wanghuang.password!=null and wanghuang.password!=''">
+				and password like #{wanghuang.password}
+			</if>
+		</where>
+		limit #{begin},#{size}
+	</select>
+	<select id="selecttotalcountbycondition" resultType="java.lang.Integer">
+		select count(*) from wanghuang
+		<where>
+			<if test=" status!=null and  status!=''">
+				and status = #{ status}
+			</if>
+			<if test=" name!=null and  name!=''">
+				and name like #{ name}
+			</if>
+			<if test=" password!=null and  password!=''">
+				and password like #{ password}
+			</if>
+		</where>
+	</select>
+</mapper>

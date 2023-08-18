@@ -1,0 +1,48 @@
+<!--
+    @Author: Jzq
+    @Date: 2023/2/1 17:09
+    vue:一套前端框架，免除dom操作，实现数据双向绑定，即展示的数据随模型自动变化
+-->
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<div id="app">
+	<input v-model="username"><!--使用v-model定义双向绑定，插入在data中定义的模型--><br>
+	<a v-bind:href="url">点击一下</a><!--v-bind:为html标签绑定属性值，如设置href,css样式等,v-bind可省略--><br>
+	<input type="button" value="一个按钮" @click="show()"><!--v-on:为html标签添加事件,可以用@来代替v-on--><br>
+	<div v-if="count==3">div1</div>
+	<div v-else-if="count==4">div2</div><!--v-if:判断为true时执行其中指令-->
+	<div v-else>div3</div>
+	<div v-show="count==3">div v-show</div><!--与if不同的是，没有满足if条件的指令不会存在，而没有满足show只是不将其展示出来，但是仍然存在-->
+	<input v-model="count">
+	<div v-for="(jzq,o) in addrs">
+		{{o}}-{{jzq}}<br><!--v-for:按照数组遍历，可加索引-->
+	</div>
+	{{username}}<!--插值表达式-->
+</div>
+<script src="js/vue.min.js"></script>
+<script>
+	new Vue({
+		el:"#app",//用于指定vue控制范围
+		data:{//用于定义模型数据
+			username:"",
+			url:"https://www.bilibili.com/",
+			count:3,
+			addrs:["jzq","qzj","jqz"]
+		},
+		methods:{//使用method来定义方法
+			show(){
+				document.write("jzq")
+			}
+		},
+		mounted(){//该方法加载完成时自动执行
+			alert("加载完成")
+		}
+	})
+</script>
+</body>
+</html>

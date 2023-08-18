@@ -1,0 +1,37 @@
+<!--
+    @Author: Jzq
+    @Date: 2023/1/10 14:29
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<!--内部样式导入css-->
+	<!--div:选择所有div标签设置-->
+	<!--#+id:选择对应id进行设置,id不可重复-->
+	<!--class:使用自己设置的class进行设置，可重复-->
+  <style>
+    .jzq
+    {
+	    color: green;
+    }
+    div
+    {
+	    color: red;
+    }
+    #jzq
+    {
+	    color: black;
+    }
+  </style>
+	<link href="../css/jzq.css" rel="stylesheet"><!--外部导入css，href后加导入文件地址，rel后加css识别符-->
+</head>
+<body>
+<div style="color: blue">hello css</div><!--内联样式导入css-->
+<span class="jzq">hello css</span><!--内部样式导入css-->
+<p>hello css</p><!--外部导入css-->
+<div id="jzq">hello css</div>
+<div class="jzq">hello css</div>
+</body>
+</html>

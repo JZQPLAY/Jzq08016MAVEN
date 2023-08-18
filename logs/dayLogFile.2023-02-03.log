@@ -1,0 +1,19 @@
+2023-02-03 16:18:20.994  DEBUG [main] o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7c0c77c7
+2023-02-03 16:18:21.094  DEBUG [main] o.s.b.f.x.XmlBeanDefinitionReader - Loaded 2 bean definitions from class path resource [applicationContext.xml]
+2023-02-03 16:18:21.114  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jzqdao'
+2023-02-03 16:18:21.122  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jzqservice'
+2023-02-03 16:22:16.227  DEBUG [main] o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7c0c77c7
+2023-02-03 16:22:16.330  DEBUG [main] o.s.b.f.x.XmlBeanDefinitionReader - Loaded 2 bean definitions from class path resource [applicationContext.xml]
+2023-02-03 16:22:16.349  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jzqdao'
+2023-02-03 16:22:16.357  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jzqService'
+2023-02-03 19:27:47.801  DEBUG [main] o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7c0c77c7
+2023-02-03 19:27:47.909  DEBUG [main] o.s.b.f.x.XmlBeanDefinitionReader - Loaded 2 bean definitions from class path resource [applicationContext.xml]
+2023-02-03 19:27:47.930  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jzqdao'
+2023-02-03 19:27:47.938  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jzqService'
+2023-02-03 19:34:01.005  DEBUG [main] o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7c0c77c7
+2023-02-03 19:34:01.107  DEBUG [main] o.s.b.f.x.XmlBeanDefinitionReader - Loaded 2 bean definitions from class path resource [applicationContext.xml]
+2023-02-03 19:34:01.126  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jzqdao'
+2023-02-03 19:34:01.135  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jzqService'
+2023-02-03 19:38:53.228  DEBUG [main] o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7c0c77c7
+2023-02-03 19:38:53.327  DEBUG [main] o.s.b.f.x.XmlBeanDefinitionReader - Loaded 2 bean definitions from class path resource [applicationContext.xml]
+2023-02-03 19:38:53.347  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jzqService'

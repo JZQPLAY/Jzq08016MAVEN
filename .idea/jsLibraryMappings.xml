@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$" libraries="{axios}" />
+    <file url="file://$PROJECT_DIR$/JzqSqring" libraries="{axios}" />
+    <file url="file://$PROJECT_DIR$/demo/springbootjzq" libraries="{axios}" />
+    <file url="file://$PROJECT_DIR$/jzqtomcat" libraries="{axios}" />
+    <file url="file://$PROJECT_DIR$/springmvcjzq" libraries="{axios}" />
+    <file url="file://$PROJECT_DIR$/springmvcjzqdoamin" libraries="{axios}" />
+    <file url="file://$PROJECT_DIR$/springmvcjzqparent" libraries="{axios}" />
+  </component>
+</project>

@@ -1,0 +1,52 @@
+2023-02-19 21:27:35.105  DEBUG [main] o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7ee955a8
+2023-02-19 21:27:35.297  DEBUG [main] o.s.b.f.x.XmlBeanDefinitionReader - Loaded 7 bean definitions from class path resource [applicationContext.xml]
+2023-02-19 21:27:35.342  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2023-02-19 21:27:35.396  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'localProperties' with value of type String
+2023-02-19 21:27:35.397  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2023-02-19 21:27:35.397  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2023-02-19 21:27:35.397  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2023-02-19 21:27:35.403  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jzqdao'
+2023-02-19 21:27:35.427  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dao'
+2023-02-19 21:27:35.428  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jzqService'
+2023-02-19 21:27:35.433  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jzqbean'
+2023-02-19 21:27:35.435  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'datasource'
+2023-02-19 21:27:35.496  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'cps'
+2023-02-19 21:58:38.897  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-19 21:58:38.909  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-19 21:58:38.964  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\mybatisconfig.class]
+2023-02-19 21:58:38.966  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\service\accountserviceimpl.class]
+2023-02-19 21:58:38.971  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\service\accountserviceimpl.class]
+2023-02-19 21:58:38.971  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\springconfig.class]
+2023-02-19 21:58:39.001  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mapperScannerConfigurer'
+2023-02-19 21:58:39.002  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mybatisconfig'
+2023-02-19 21:58:39.008  DEBUG [main] o.a.i.l.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-02-19 21:58:39.011  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\mybatis\dao\accountdao.class]
+2023-02-19 21:58:39.012  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Creating MapperFactoryBean with name 'accountdao' and 'mybatis.dao.accountdao' mapperInterface
+2023-02-19 21:58:39.014  DEBUG [main] o.m.s.m.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'accountdao'.
+2023-02-19 21:58:39.017  INFO  [main] o.s.c.a.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatisconfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2023-02-19 21:58:39.066  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-19 21:58:39.067  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-19 21:58:39.068  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-19 21:58:39.070  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-19 21:58:39.079  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springconfig'
+2023-02-19 21:58:39.082  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountserviceimpl'
+2023-02-19 21:58:39.097  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountdao'
+2023-02-19 21:58:39.119  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sqlSessionFactory'
+2023-02-19 21:58:39.121  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+2023-02-19 21:58:39.121  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mybatis.jdbcconfig'
+2023-02-19 21:58:39.124  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-19 21:58:39.124  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-19 21:58:39.124  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-19 21:58:39.125  DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-02-19 21:58:39.154  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'sqlSessionFactory' via factory method to bean named 'dataSource'
+2023-02-19 21:58:39.161  DEBUG [main] o.m.s.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2023-02-19 21:58:39.201  DEBUG [main] o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+2023-02-19 21:58:39.274  DEBUG [main] o.m.s.SqlSessionUtils - Creating a new SqlSession
+2023-02-19 21:58:39.278  DEBUG [main] o.m.s.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27305e6] was not registered for synchronization because synchronization is not active
+2023-02-19 21:58:39.287  DEBUG [main] o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+2023-02-19 21:58:39.397  INFO  [main] c.a.d.p.DruidDataSource - {dataSource-1} inited
+2023-02-19 21:58:39.555  DEBUG [main] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b28f282] will not be managed by Spring
+2023-02-19 21:58:39.562  DEBUG [main] m.d.a.select - ==>  Preparing: select * from demo1
+2023-02-19 21:58:39.580  DEBUG [main] m.d.a.select - ==> Parameters: 
+2023-02-19 21:58:39.611  DEBUG [main] m.d.a.select - <==      Total: 6
+2023-02-19 21:58:39.612  DEBUG [main] o.m.s.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27305e6]

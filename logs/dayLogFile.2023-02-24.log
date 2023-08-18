@@ -1,0 +1,276 @@
+2023-02-24 20:15:20.787  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-24 20:15:20.803  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-24 20:15:20.856  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-24 20:15:20.859  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-24 20:15:20.936  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-24 20:15:20.938  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-24 20:15:20.939  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-24 20:15:20.940  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-24 20:15:20.946  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-24 20:15:21.010  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-24 20:15:21.031  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method()
+2023-02-24 20:15:21.116  WARN  [main] o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'aopspringconfig': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 23
+execution(void*..save1())
+                       ^
+
+2023-02-24 20:15:56.671  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-24 20:15:56.684  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-24 20:15:56.732  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-24 20:15:56.734  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-24 20:15:56.803  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-24 20:15:56.805  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-24 20:15:56.806  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-24 20:15:56.807  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-24 20:15:56.811  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-24 20:15:56.873  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-24 20:15:56.889  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method()
+2023-02-24 20:15:56.977  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-24 20:15:56.978  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-24 20:16:31.509  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-24 20:16:31.522  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-24 20:16:31.569  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-24 20:16:31.572  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-24 20:16:31.641  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-24 20:16:31.643  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-24 20:16:31.644  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-24 20:16:31.646  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-24 20:16:31.649  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-24 20:16:31.705  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-24 20:16:31.720  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method()
+2023-02-24 20:16:31.810  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-24 20:16:31.812  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-24 20:19:52.241  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-24 20:19:52.253  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-24 20:19:52.300  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-24 20:19:52.302  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-24 20:19:52.371  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-24 20:19:52.373  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-24 20:19:52.375  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-24 20:19:52.376  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-24 20:19:52.379  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-24 20:19:52.434  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-24 20:19:52.448  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method()
+2023-02-24 20:19:52.512  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-24 20:19:52.514  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-24 20:20:10.151  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-24 20:20:10.163  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-24 20:20:10.211  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-24 20:20:10.213  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-24 20:20:10.290  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-24 20:20:10.291  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-24 20:20:10.292  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-24 20:20:10.294  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-24 20:20:10.297  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-24 20:20:10.354  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-24 20:20:10.370  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method()
+2023-02-24 20:20:10.434  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-24 20:20:10.434  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-24 20:31:56.987  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-24 20:31:56.999  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-24 20:31:57.048  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-24 20:31:57.050  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-24 20:31:57.119  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-24 20:31:57.121  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-24 20:31:57.122  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-24 20:31:57.124  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-24 20:31:57.128  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-24 20:31:57.183  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-24 20:31:57.197  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method()
+2023-02-24 20:31:57.199  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method1()
+2023-02-24 20:31:57.265  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-24 20:31:57.266  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-24 20:34:08.000  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-24 20:34:08.015  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-24 20:34:08.066  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-24 20:34:08.068  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-24 20:34:08.143  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-24 20:34:08.145  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-24 20:34:08.146  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-24 20:34:08.147  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-24 20:34:08.151  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-24 20:34:08.208  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-24 20:34:08.226  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method2()
+2023-02-24 20:34:08.228  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method0()
+2023-02-24 20:34:08.228  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method1()
+2023-02-24 20:34:08.302  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-24 20:34:08.302  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-24 20:36:13.003  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-24 20:36:13.016  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-24 20:36:13.063  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-24 20:36:13.065  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-24 20:36:13.134  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-24 20:36:13.136  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-24 20:36:13.137  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-24 20:36:13.138  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-24 20:36:13.142  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-24 20:36:13.197  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-24 20:36:13.215  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method2(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2023-02-24 20:36:13.217  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method0()
+2023-02-24 20:36:13.217  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method1()
+2023-02-24 20:36:13.283  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-24 20:36:13.284  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-24 20:40:05.601  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-24 20:40:05.614  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-24 20:40:05.670  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-24 20:40:05.672  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-24 20:40:05.740  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-24 20:40:05.742  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-24 20:40:05.743  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-24 20:40:05.745  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-24 20:40:05.748  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-24 20:40:05.808  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-24 20:40:05.825  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method2(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2023-02-24 20:40:05.827  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method3(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2023-02-24 20:40:05.827  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method0()
+2023-02-24 20:40:05.828  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method1()
+2023-02-24 20:40:05.895  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-24 20:40:05.896  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-24 20:41:39.160  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-24 20:41:39.172  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-24 20:41:39.219  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-24 20:41:39.221  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-24 20:41:39.289  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-24 20:41:39.291  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-24 20:41:39.292  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-24 20:41:39.294  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-24 20:41:39.297  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-24 20:41:39.353  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-24 20:41:39.371  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method2(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2023-02-24 20:41:39.372  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method3(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2023-02-24 20:41:39.372  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method0()
+2023-02-24 20:41:39.373  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method1()
+2023-02-24 20:41:39.444  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-24 20:41:39.445  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-24 20:42:29.115  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-24 20:42:29.129  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-24 20:42:29.182  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-24 20:42:29.184  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-24 20:42:29.257  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-24 20:42:29.258  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-24 20:42:29.260  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-24 20:42:29.261  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-24 20:42:29.265  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-24 20:42:29.329  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-24 20:42:29.348  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method2(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2023-02-24 20:42:29.349  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public java.lang.Object aop.Myadvice.method3(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2023-02-24 20:42:29.349  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method0()
+2023-02-24 20:42:29.350  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method1()
+2023-02-24 20:42:29.418  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-24 20:42:29.419  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-24 20:43:19.247  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-24 20:43:19.260  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-24 20:43:19.307  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-24 20:43:19.309  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-24 20:43:19.381  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-24 20:43:19.382  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-24 20:43:19.383  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-24 20:43:19.384  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-24 20:43:19.388  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-24 20:43:19.444  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-24 20:43:19.461  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method2(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2023-02-24 20:43:19.463  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public java.lang.Object aop.Myadvice.method3(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2023-02-24 20:43:19.464  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method0()
+2023-02-24 20:43:19.464  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method1()
+2023-02-24 20:43:19.532  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-24 20:43:19.533  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-24 20:44:26.539  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-24 20:44:26.551  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-24 20:44:26.598  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-24 20:44:26.600  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-24 20:44:26.670  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-24 20:44:26.672  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-24 20:44:26.673  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-24 20:44:26.674  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-24 20:44:26.678  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-24 20:44:26.735  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-24 20:44:26.754  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method2(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2023-02-24 20:44:26.755  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public java.lang.Object aop.Myadvice.method3(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2023-02-24 20:44:26.756  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method0()
+2023-02-24 20:44:26.756  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method1()
+2023-02-24 20:44:26.834  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-24 20:44:26.835  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-24 20:46:47.990  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-24 20:46:48.004  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-24 20:46:48.058  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-24 20:46:48.060  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-24 20:46:48.134  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-24 20:46:48.135  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-24 20:46:48.137  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-24 20:46:48.138  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-24 20:46:48.141  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-24 20:46:48.202  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-24 20:46:48.220  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method2(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2023-02-24 20:46:48.221  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public java.lang.Object aop.Myadvice.method3(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2023-02-24 20:46:48.222  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method0()
+2023-02-24 20:46:48.222  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method1()
+2023-02-24 20:46:48.291  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-24 20:46:48.292  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-24 20:47:03.143  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-24 20:47:03.156  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-24 20:47:03.203  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-24 20:47:03.205  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-24 20:47:03.276  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-24 20:47:03.277  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-24 20:47:03.278  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-24 20:47:03.280  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-24 20:47:03.283  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-24 20:47:03.339  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-24 20:47:03.356  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method2(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2023-02-24 20:47:03.357  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public java.lang.Object aop.Myadvice.method3(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2023-02-24 20:47:03.358  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method0()
+2023-02-24 20:47:03.358  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method1()
+2023-02-24 20:47:03.426  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-24 20:47:03.427  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-24 20:51:38.606  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-24 20:51:38.618  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-24 20:51:38.666  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-24 20:51:38.669  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-24 20:51:38.741  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-24 20:51:38.743  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-24 20:51:38.744  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-24 20:51:38.745  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-24 20:51:38.749  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-24 20:51:38.804  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-24 20:51:38.827  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method2(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2023-02-24 20:51:38.829  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public java.lang.Object aop.Myadvice.method3(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2023-02-24 20:51:38.829  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method0()
+2023-02-24 20:51:38.830  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method1()
+2023-02-24 20:51:38.830  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method4()
+2023-02-24 20:51:38.908  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-24 20:51:38.909  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-24 20:54:18.123  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-24 20:54:18.136  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-24 20:54:18.188  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-24 20:54:18.190  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-24 20:54:18.266  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-24 20:54:18.268  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-24 20:54:18.269  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-24 20:54:18.270  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-24 20:54:18.274  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-24 20:54:18.334  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-24 20:54:18.358  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method2(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2023-02-24 20:54:18.359  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public java.lang.Object aop.Myadvice.method3(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2023-02-24 20:54:18.360  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method0()
+2023-02-24 20:54:18.360  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method1()
+2023-02-24 20:54:18.360  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method4()
+2023-02-24 20:54:18.361  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method5()
+2023-02-24 20:54:18.440  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-24 20:54:18.441  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'
+2023-02-24 20:55:01.706  DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647fd8ce
+2023-02-24 20:55:01.721  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-24 20:55:01.777  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\Myadvice.class]
+2023-02-24 20:55:01.779  DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\WorkSpace\idea\2021.3\Jzq08016MAVEN\JzqSqring\target\classes\aop\aopimpl.class]
+2023-02-24 20:55:01.852  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-24 20:55:01.854  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-24 20:55:01.855  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-24 20:55:01.856  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-24 20:55:01.860  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-02-24 20:55:01.920  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopspringconfig'
+2023-02-24 20:55:01.940  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method2(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2023-02-24 20:55:01.942  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public java.lang.Object aop.Myadvice.method3(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2023-02-24 20:55:01.942  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method0()
+2023-02-24 20:55:01.943  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method1()
+2023-02-24 20:55:01.943  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method4()
+2023-02-24 20:55:01.944  DEBUG [main] o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void aop.Myadvice.method5()
+2023-02-24 20:55:02.018  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myadvice'
+2023-02-24 20:55:02.019  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopimpl'

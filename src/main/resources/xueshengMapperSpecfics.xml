@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace:名称空间-->
+<mapper namespace="XueshengSpecfics">
+	<resultMap id="jzq" type="mysql">
+		<result column="entry_date" property="entryDate"/>
+	</resultMap>
+	<select id="selectByID" resultMap="jzq">
+		select * from xuesheng where id=#{id};<!--#号代表问号，是将参数传给问号，如果为$，则是直接传给sql，会发生sql注入问题-->
+	</select>
+	<!--	<select id="selectByCondition" resultMap="jzq">-->
+	<!--		select * from xuesheng where name like #{name} and sex=#{sex} and score=#{score};-->
+	<!--	</select>-->
+	<select id="selectByCondition" resultMap="jzq">
+		select * from xuesheng <!--动态sql:使用if等语句控制sql，使得sql语句随用户输入而变化-->
+		<!--使用where如果第一个控制语句被跳过，会导致sql语句出错，使用<where>标签来控制，就不用受and的约束-->
+		<where>
+			<if test="name!=null">
+				name like #{name}
+			</if>
+			<if test="score!=null ">
+				score=#{score}
+			</if>
+			sex=#{sex}
+		</where>
+		;
+	</select>
+	<select id="selectByConditionSingle" resultMap="jzq">
+		select* from xuesheng
+		<where>
+			<choose><!--相当于switch,选择查询，输入哪个列的参数，就查哪个列-->
+				<when test="name!=null">
+					name like #{name}
+				</when>
+				<when test="score!=null"><!--相当于case-->
+					score=#{score}
+				</when>
+				<when test="sex!=null">
+					sex=#{sex}
+				</when>
+				<!--<otherwise>,如果都不输入，就执行otherwise的内容，也可以用<where>标签来代替，当where后没值，系统会自动去掉where约束-->
+				<!--	1=1-->
+				<!--</otherwise>-->
+			</choose>
+		</where>
+	</select>
+	<insert id="add" useGeneratedKeys="true" keyProperty="id"><!--添加-->
+		insert into
+			xuesheng (name,age,sex,hobby,idcard,score)
+		values (#{name},#{age},#{sex},#{hobby},#{idcard},#{score})
+	</insert>
+	<update id="update">
+		update xuesheng
+		set age=#{age}
+		where id = #{id};
+	</update>
+	<delete id="delete"><!--单个删除-->
+		delete
+		from xuesheng
+		where id = #{id};
+	</delete>
+	<delete id="delete1"><!--多个删除:使用foreach标签-->
+		<!--mybatis会将数组参数封装为一个map集合,集合的默认名为array，在foreach collection加集合名，也可以使用params修改名称
+		item代表字段名
+		separator代表分割符-->
+		delete from xuesheng where id in(
+		<foreach collection="array" item="id" separator=",">
+			#{id}
+		</foreach>
+		);
+	</delete>
+</mapper>

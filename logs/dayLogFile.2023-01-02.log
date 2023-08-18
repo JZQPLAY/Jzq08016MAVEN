@@ -1,0 +1,167 @@
+2023-01-02 09:04:51.738  DEBUG [main] o.a.i.l.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-02 09:04:51.764  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 09:04:51.764  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 09:04:51.764  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 09:04:51.764  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 09:04:51.809  DEBUG [main] o.a.i.t.j.JdbcTransaction - Opening JDBC Connection
+2023-01-02 09:04:51.964  DEBUG [main] o.a.i.d.p.PooledDataSource - Created connection 1171434979.
+2023-01-02 09:04:51.964  DEBUG [main] o.a.i.t.j.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@45d2ade3]
+2023-01-02 09:04:51.964  DEBUG [main] m.selectAll - ==>  Preparing: select * from xuesheng;
+2023-01-02 09:04:52.000  DEBUG [main] m.selectAll - ==> Parameters: 
+2023-01-02 09:04:52.035  DEBUG [main] m.selectAll - <==      Total: 15
+2023-01-02 09:04:52.051  DEBUG [main] o.a.i.t.j.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@45d2ade3]
+2023-01-02 09:04:52.052  DEBUG [main] o.a.i.t.j.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@45d2ade3]
+2023-01-02 09:04:52.052  DEBUG [main] o.a.i.d.p.PooledDataSource - Returned connection 1171434979 to pool.
+2023-01-02 15:13:39.283  DEBUG [main] o.a.i.l.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-02 15:13:39.293  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 15:13:39.293  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 15:13:39.293  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 15:13:39.293  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 15:13:39.361  DEBUG [main] o.a.i.t.j.JdbcTransaction - Opening JDBC Connection
+2023-01-02 15:13:39.499  DEBUG [main] o.a.i.d.p.PooledDataSource - Created connection 1171434979.
+2023-01-02 15:13:39.515  DEBUG [main] o.a.i.t.j.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@45d2ade3]
+2023-01-02 15:13:39.515  DEBUG [main] m.selectAll - ==>  Preparing: select * from xuesheng;
+2023-01-02 15:13:39.540  DEBUG [main] m.selectAll - ==> Parameters: 
+2023-01-02 15:13:39.566  DEBUG [main] m.selectAll - <==      Total: 15
+2023-01-02 15:13:39.582  DEBUG [main] o.a.i.t.j.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@45d2ade3]
+2023-01-02 15:13:39.582  DEBUG [main] o.a.i.t.j.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@45d2ade3]
+2023-01-02 15:13:39.582  DEBUG [main] o.a.i.d.p.PooledDataSource - Returned connection 1171434979 to pool.
+2023-01-02 17:31:50.825  DEBUG [main] o.a.i.l.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-02 17:31:50.857  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 17:31:50.857  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 17:31:50.857  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 17:31:50.857  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 17:31:50.857  DEBUG [main] o.a.i.io.VFS - Class not found: org.jboss.vfs.VFS
+2023-01-02 17:31:50.857  DEBUG [main] o.a.i.i.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+2023-01-02 17:31:50.857  DEBUG [main] o.a.i.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+2023-01-02 17:31:50.857  DEBUG [main] o.a.i.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2023-01-02 17:31:50.857  DEBUG [main] o.a.i.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2023-01-02 17:32:23.961  DEBUG [main] o.a.i.l.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-02 17:32:23.971  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 17:32:23.981  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 17:32:23.981  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 17:32:23.981  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 17:32:23.981  DEBUG [main] o.a.i.io.VFS - Class not found: org.jboss.vfs.VFS
+2023-01-02 17:32:23.981  DEBUG [main] o.a.i.i.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+2023-01-02 17:32:23.981  DEBUG [main] o.a.i.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+2023-01-02 17:32:23.981  DEBUG [main] o.a.i.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2023-01-02 17:32:23.981  DEBUG [main] o.a.i.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2023-01-02 18:27:15.285  DEBUG [main] o.a.i.l.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-02 18:27:15.304  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:27:15.304  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:27:15.304  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:27:15.304  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:29:36.738  DEBUG [main] o.a.i.l.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-02 18:29:36.757  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:29:36.759  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:29:36.759  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:29:36.759  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:35:09.554  DEBUG [main] o.a.i.l.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-02 18:35:09.571  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:35:09.572  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:35:09.572  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:35:09.572  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:35:09.633  DEBUG [main] o.a.i.t.j.JdbcTransaction - Opening JDBC Connection
+2023-01-02 18:35:09.766  DEBUG [main] o.a.i.d.p.PooledDataSource - Created connection 332699949.
+2023-01-02 18:35:09.766  DEBUG [main] o.a.i.t.j.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13d4992d]
+2023-01-02 18:35:09.769  DEBUG [main] X.selectAll - ==>  Preparing: select * from xuesheng;
+2023-01-02 18:35:09.795  DEBUG [main] X.selectAll - ==> Parameters: 
+2023-01-02 18:35:09.825  DEBUG [main] X.selectAll - <==      Total: 15
+2023-01-02 18:35:09.837  DEBUG [main] o.a.i.t.j.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13d4992d]
+2023-01-02 18:35:09.837  DEBUG [main] o.a.i.t.j.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13d4992d]
+2023-01-02 18:35:09.838  DEBUG [main] o.a.i.d.p.PooledDataSource - Returned connection 332699949 to pool.
+2023-01-02 18:39:45.651  DEBUG [main] o.a.i.l.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-02 18:39:45.669  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:39:45.669  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:39:45.669  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:39:45.669  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:39:45.731  DEBUG [main] o.a.i.t.j.JdbcTransaction - Opening JDBC Connection
+2023-01-02 18:39:45.873  DEBUG [main] o.a.i.d.p.PooledDataSource - Created connection 332699949.
+2023-01-02 18:39:45.874  DEBUG [main] o.a.i.t.j.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13d4992d]
+2023-01-02 18:39:45.877  DEBUG [main] X.selectAll - ==>  Preparing: select * from xuesheng;
+2023-01-02 18:39:45.907  DEBUG [main] X.selectAll - ==> Parameters: 
+2023-01-02 18:39:45.940  DEBUG [main] X.selectAll - <==      Total: 15
+2023-01-02 18:39:45.952  DEBUG [main] o.a.i.t.j.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13d4992d]
+2023-01-02 18:39:45.953  DEBUG [main] o.a.i.t.j.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13d4992d]
+2023-01-02 18:39:45.953  DEBUG [main] o.a.i.d.p.PooledDataSource - Returned connection 332699949 to pool.
+2023-01-02 18:42:49.992  DEBUG [main] o.a.i.l.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-02 18:42:50.009  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:42:50.010  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:42:50.010  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:42:50.010  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:42:50.077  DEBUG [main] o.a.i.t.j.JdbcTransaction - Opening JDBC Connection
+2023-01-02 18:42:50.214  DEBUG [main] o.a.i.d.p.PooledDataSource - Created connection 332699949.
+2023-01-02 18:42:50.215  DEBUG [main] o.a.i.t.j.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13d4992d]
+2023-01-02 18:42:50.218  DEBUG [main] X.selectAll - ==>  Preparing: select * from xuesheng;
+2023-01-02 18:42:50.243  DEBUG [main] X.selectAll - ==> Parameters: 
+2023-01-02 18:42:50.272  DEBUG [main] X.selectAll - <==      Total: 15
+2023-01-02 18:42:50.282  DEBUG [main] o.a.i.t.j.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13d4992d]
+2023-01-02 18:42:50.283  DEBUG [main] o.a.i.t.j.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13d4992d]
+2023-01-02 18:42:50.283  DEBUG [main] o.a.i.d.p.PooledDataSource - Returned connection 332699949 to pool.
+2023-01-02 18:46:24.320  DEBUG [main] o.a.i.l.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-02 18:46:24.340  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:46:24.341  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:46:24.341  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:46:24.341  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:46:24.409  DEBUG [main] o.a.i.t.j.JdbcTransaction - Opening JDBC Connection
+2023-01-02 18:46:24.549  DEBUG [main] o.a.i.d.p.PooledDataSource - Created connection 332699949.
+2023-01-02 18:46:24.550  DEBUG [main] o.a.i.t.j.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13d4992d]
+2023-01-02 18:46:24.553  DEBUG [main] X.selectAll - ==>  Preparing: select * from xuesheng;
+2023-01-02 18:46:24.584  DEBUG [main] X.selectAll - ==> Parameters: 
+2023-01-02 18:46:24.615  DEBUG [main] X.selectAll - <==      Total: 15
+2023-01-02 18:46:24.628  DEBUG [main] o.a.i.t.j.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13d4992d]
+2023-01-02 18:46:24.629  DEBUG [main] o.a.i.t.j.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13d4992d]
+2023-01-02 18:46:24.629  DEBUG [main] o.a.i.d.p.PooledDataSource - Returned connection 332699949 to pool.
+2023-01-02 18:49:46.186  DEBUG [main] o.a.i.l.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-02 18:49:46.204  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:49:46.204  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:49:46.204  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:49:46.204  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:49:46.266  DEBUG [main] o.a.i.t.j.JdbcTransaction - Opening JDBC Connection
+2023-01-02 18:49:46.391  DEBUG [main] o.a.i.d.p.PooledDataSource - Created connection 332699949.
+2023-01-02 18:49:46.391  DEBUG [main] o.a.i.t.j.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13d4992d]
+2023-01-02 18:49:46.394  DEBUG [main] X.selectAll - ==>  Preparing: select * from xuesheng;
+2023-01-02 18:49:46.420  DEBUG [main] X.selectAll - ==> Parameters: 
+2023-01-02 18:49:46.450  DEBUG [main] X.selectAll - <==      Total: 15
+2023-01-02 18:49:46.462  DEBUG [main] o.a.i.t.j.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13d4992d]
+2023-01-02 18:49:46.463  DEBUG [main] o.a.i.t.j.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13d4992d]
+2023-01-02 18:49:46.463  DEBUG [main] o.a.i.d.p.PooledDataSource - Returned connection 332699949 to pool.
+2023-01-02 18:50:51.453  DEBUG [main] o.a.i.l.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-02 18:50:51.470  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:50:51.470  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:50:51.471  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:50:51.471  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 18:50:51.532  DEBUG [main] o.a.i.t.j.JdbcTransaction - Opening JDBC Connection
+2023-01-02 18:50:51.658  DEBUG [main] o.a.i.d.p.PooledDataSource - Created connection 332699949.
+2023-01-02 18:50:51.658  DEBUG [main] o.a.i.t.j.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13d4992d]
+2023-01-02 18:50:51.663  DEBUG [main] X.selectAll - ==>  Preparing: select * from xuesheng;
+2023-01-02 18:50:51.690  DEBUG [main] X.selectAll - ==> Parameters: 
+2023-01-02 18:50:51.718  DEBUG [main] X.selectAll - <==      Total: 15
+2023-01-02 18:50:51.731  DEBUG [main] o.a.i.t.j.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13d4992d]
+2023-01-02 18:50:51.732  DEBUG [main] o.a.i.t.j.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13d4992d]
+2023-01-02 18:50:51.733  DEBUG [main] o.a.i.d.p.PooledDataSource - Returned connection 332699949 to pool.
+2023-01-02 19:23:10.964  DEBUG [main] o.a.i.l.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-02 19:23:10.981  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 19:23:10.982  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 19:23:10.982  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 19:23:10.982  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 19:23:11.047  DEBUG [main] o.a.i.t.j.JdbcTransaction - Opening JDBC Connection
+2023-01-02 19:23:11.188  DEBUG [main] o.a.i.d.p.PooledDataSource - Created connection 2106165633.
+2023-01-02 19:23:11.188  DEBUG [main] o.a.i.t.j.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7d898981]
+2023-01-02 19:23:11.192  DEBUG [main] X.selectAll - ==>  Preparing: select * from xuesheng;
+2023-01-02 19:23:11.220  DEBUG [main] X.selectAll - ==> Parameters: 
+2023-01-02 19:23:11.255  DEBUG [main] X.selectAll - <==      Total: 15
+2023-01-02 19:23:11.266  DEBUG [main] o.a.i.t.j.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7d898981]
+2023-01-02 19:23:11.267  DEBUG [main] o.a.i.t.j.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7d898981]
+2023-01-02 19:23:11.267  DEBUG [main] o.a.i.d.p.PooledDataSource - Returned connection 2106165633 to pool.
+2023-01-02 20:08:04.246  DEBUG [main] o.a.i.l.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-02 20:08:04.268  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 20:08:04.268  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 20:08:04.268  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 20:08:04.269  DEBUG [main] o.a.i.d.p.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-01-02 20:08:04.352  DEBUG [main] o.a.i.t.j.JdbcTransaction - Opening JDBC Connection
+2023-01-02 20:08:04.491  DEBUG [main] o.a.i.d.p.PooledDataSource - Created connection 2144284609.
+2023-01-02 20:08:04.492  DEBUG [main] o.a.i.t.j.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7fcf2fc1]
+2023-01-02 20:08:04.495  DEBUG [main] X.selectByID - ==>  Preparing: select * from xuesheng where id=?;
+2023-01-02 20:08:04.523  DEBUG [main] X.selectByID - ==> Parameters: 3(Integer)
+2023-01-02 20:08:04.550  DEBUG [main] X.selectByID - <==      Total: 1
